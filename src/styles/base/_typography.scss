@@ -1,0 +1,12 @@
+em {
+  color: $primary;
+}
+
+strong {
+  font-weight: bold;
+}
+
+*::selection {
+  background: rgba($primary, 0.99);
+  color: $dark;
+}

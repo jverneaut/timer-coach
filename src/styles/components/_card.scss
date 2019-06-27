@@ -1,0 +1,47 @@
+.card {
+  border: 1px solid rgba($primary, 0.1);
+  padding: 8px 12px;
+  width: 160px;
+  height: 120px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  border-radius: 4px;
+  display: inline-flex;
+  flex-direction: column;
+  white-space: normal;
+
+  @media screen and (max-width: 540px) {
+    width: 240px;
+    height: 80px;
+  }
+}
+
+.card__content {
+  font-size: 16px;
+  color: white;
+  line-height: 1.4;
+  color: $secondary;
+  flex: 1;
+}
+
+.card__content strong {
+  color: white;
+}
+
+.card__button {
+  font-size: 12px;
+  color: white;
+  background: none;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  text-align: left;
+  outline: none;
+  cursor: pointer;
+  color: $secondary;
+  transition: 0.4s;
+}
+
+.card__button:hover {
+  color: white;
+}

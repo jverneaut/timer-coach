@@ -1,0 +1,10 @@
+.cards-container {
+  position: fixed;
+  bottom: 8px;
+  width: calc(100% - 48px);
+  max-width: 980px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  overflow: scroll;
+}

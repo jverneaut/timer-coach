@@ -1,0 +1,10 @@
+.bots-container {
+  bottom: 50%;
+  position: fixed;
+  width: calc(100% - 48px);
+  max-width: 980px;
+
+  @media screen and (max-width: 540px) {
+    bottom: 40%;
+  }
+}
